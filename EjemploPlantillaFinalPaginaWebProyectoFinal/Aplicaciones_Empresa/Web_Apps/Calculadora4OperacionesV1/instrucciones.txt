@@ -1,0 +1,8 @@
+1. Estructura HTML:
+Crea un archivo HTML llamado "calculadora.html" y configura la estructura básica del documento. Dentro del cuerpo (body) del documento, agrega los elementos necesarios para la calculadora, como botones para números y operadores, y una pantalla para mostrar los resultados.
+
+2. Estilos CSS:
+Crea un archivo CSS llamado "styles.css" para dar estilo a la calculadora. Puedes ajustar los colores, tamaños y diseños según tu preferencia.
+
+3. Funciones JavaScript:
+Crea un archivo JavaScript llamado "script.js" para manejar la lógica de la calculadora.
