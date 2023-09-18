@@ -1,7 +1,7 @@
 #*******************************************************************************
 # Empresa: OvniOn
 # 
-# Aplicación: Calculadora de promedios de notas
+# Aplicación de escritorio: Calculadora de consola que calcula promedios de notas
 # 
 # Destinado a: estudiantes de todas las edades y niveles.
 # 

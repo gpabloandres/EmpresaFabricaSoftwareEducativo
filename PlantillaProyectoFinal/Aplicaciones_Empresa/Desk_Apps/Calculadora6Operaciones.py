@@ -1,3 +1,17 @@
+#*******************************************************************************
+# Empresa: OvniOn
+# 
+# Aplicación de escritorio: Calculadora de consola con 6 operaciones
+# 
+# Destinado a: estudiantes de todas las edades y niveles.
+# 
+# Descripción del funcionamiento:
+#   Muestra opciones de operaciones y solicita al usuario que ingrese
+#   una opcion. Entonces permite realizar esa operación con los números
+#   elegidos por el usuario y luego informa el resultado.
+#*******************************************************************************
+
+
 import math
 
 # Calculadora para realizar operaciones matemáticas (6)

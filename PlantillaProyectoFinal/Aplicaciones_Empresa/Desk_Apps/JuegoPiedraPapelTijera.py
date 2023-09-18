@@ -1,7 +1,7 @@
 # *******************************************************************************
 # Empresa: OvniOn
 #
-# Aplicación: Juego Piedra, Papel o Tijera
+# Aplicación de escritorio: Juego de consola del tipo piedra, papel o tijera
 #
 # Destinado a: personas de todas las edades y niveles.
 #

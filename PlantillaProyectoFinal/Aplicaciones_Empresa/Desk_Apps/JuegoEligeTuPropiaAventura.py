@@ -1,7 +1,7 @@
 # *******************************************************************************
 # Empresa: OvniOn
 #
-# Aplicación: Elige tu propia aventura
+# Aplicación de escritorio: Juego de consola del tipo elige tu propia aventura
 #
 # Destinado a: personas de todas las edades y niveles.
 #
