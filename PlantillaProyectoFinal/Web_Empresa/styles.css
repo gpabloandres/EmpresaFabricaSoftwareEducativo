@@ -202,25 +202,25 @@ nav {
 }
 
 /* Estilos de la sección Slider de marcas */
-.slider {
+#slider {
   width: 75vw;
   height: auto;
   margin: auto;
   overflow: hidden;
 }
 
-.slider .slide-track {
+.slide-track {
   display: flex;
   animation: scroll 40s linear infinite;
   -webkit-animation: scroll 40s linear infinite;
   width: calc(200px * 14);
 }
 
-.slider .slide {
+.slide {
   width: 200px;
 }
 
-.slider .slide img {
+.slide img {
   width: 100%;
 }
 
