@@ -135,6 +135,106 @@ nav {
   margin: auto;
 }
 
+/* Estilos de la sección "Conoce al Equipo" */
+#team {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Three columns side by side */
+.team-column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .team-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.team-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.team-container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.team-container::after, .team-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.team-title {
+  color: grey;
+}
+
+.team-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.team-button:hover {
+  background-color: #555;
+}
+
+.team-img {
+  display: block;
+  width: 40%;
+  margin: auto;
+}
+
+/* Estilos de la sección Slider de marcas */
+.slider {
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 14);
+}
+
+.slider .slide {
+  width: 200px;
+}
+
+.slider .slide img {
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+  }
+  100% {
+      -webkit-transform: translateX(calc(-200px * 7));
+      transform: translateX(calc(-200px * 7));
+  }
+}
+
 /* Estilos de la sección Footer */
 #footer {
   background-color: #333;
