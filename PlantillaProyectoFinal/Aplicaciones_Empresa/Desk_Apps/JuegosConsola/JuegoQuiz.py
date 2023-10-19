@@ -19,7 +19,7 @@ guesses = []
 score = 0
 question_num = 0
 
-# PASO 2: Mostrar las preguntas y sus opciones de respuesta.
+# PASO 2: Mostrar las preguntas, las opciones de respuesta y la respuesta del usuario.
 
 for question in questions:
     print("----------------------")
@@ -39,6 +39,8 @@ for question in questions:
         print(f"{answers[question_num]} is the correct answer")
     
     question_num += 1
+
+# PASO 3: Mostrar los resultados
 
 print("----------------------")
 print("       RESULTS        ")
